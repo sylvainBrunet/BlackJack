@@ -28,13 +28,13 @@
     <AppXManifest Include="E:\Github\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-31T09:58:39.477</Modified>
+      <Modified>2017-01-31T10:09:54.318</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Github\BlackJack\BlackJack\BlackJack\bin\x86\Debug\BlackJack.exe">
       <PackagePath>entrypoint\BlackJack.exe</PackagePath>
-      <Modified>2017-01-31T09:58:38.936</Modified>
+      <Modified>2017-01-31T10:09:53.516</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Brunet Sylvain\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -488,7 +488,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Github\BlackJack\BlackJack\BlackJack\bin\x86\Debug\BlackJack.xr.xml">
       <PackagePath>BlackJack.xr.xml</PackagePath>
-      <Modified>2017-01-31T09:57:55.701</Modified>
+      <Modified>2017-01-31T10:09:52.016</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -497,11 +497,11 @@
     <AppxPackagedFile Include="E:\Github\BlackJack\BlackJack\BlackJack\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-31T09:58:39.335</Modified>
+      <Modified>2017-01-31T10:09:54.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Github\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Core\BlackJack.exe">
       <PackagePath>BlackJack.exe</PackagePath>
-      <Modified>2017-01-31T09:58:39.475</Modified>
+      <Modified>2017-01-31T10:09:54.297</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
