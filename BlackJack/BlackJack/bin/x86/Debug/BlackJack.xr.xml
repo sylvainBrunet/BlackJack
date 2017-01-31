@@ -44,6 +44,6 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
     </RootType>
-    <RootType FullName="BlackJack.signup" />
+    <RootType FullName="BlackJack.Views.signup" />
   </Roots.RootTypes>
 </Roots>
