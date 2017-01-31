@@ -132,21 +132,19 @@ namespace BlackJack.BlackJack_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[6];
+            _typeNameTable = new string[5];
             _typeNameTable[0] = "BlackJack.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "BlackJack.home";
-            _typeNameTable[4] = "BlackJack.signin";
-            _typeNameTable[5] = "BlackJack.Views.signup";
+            _typeNameTable[3] = "BlackJack.Views.Signin";
+            _typeNameTable[4] = "BlackJack.Views.Signup";
 
-            _typeTable = new global::System.Type[6];
+            _typeTable = new global::System.Type[5];
             _typeTable[0] = typeof(global::BlackJack.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::BlackJack.home);
-            _typeTable[4] = typeof(global::BlackJack.signin);
-            _typeTable[5] = typeof(global::BlackJack.Views.signup);
+            _typeTable[3] = typeof(global::BlackJack.Views.Signin);
+            _typeTable[4] = typeof(global::BlackJack.Views.Signup);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -182,9 +180,8 @@ namespace BlackJack.BlackJack_XamlTypeInfo
         }
 
         private object Activate_0_MainPage() { return new global::BlackJack.MainPage(); }
-        private object Activate_3_home() { return new global::BlackJack.home(); }
-        private object Activate_4_signin() { return new global::BlackJack.signin(); }
-        private object Activate_5_signup() { return new global::BlackJack.Views.signup(); }
+        private object Activate_3_Signin() { return new global::BlackJack.Views.Signin(); }
+        private object Activate_4_Signup() { return new global::BlackJack.Views.Signup(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -211,23 +208,16 @@ namespace BlackJack.BlackJack_XamlTypeInfo
                 xamlType = new global::BlackJack.BlackJack_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  BlackJack.home
+            case 3:   //  BlackJack.Views.Signin
                 userType = new global::BlackJack.BlackJack_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_3_home;
+                userType.Activator = Activate_3_Signin;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  BlackJack.signin
+            case 4:   //  BlackJack.Views.Signup
                 userType = new global::BlackJack.BlackJack_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_signin;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 5:   //  BlackJack.Views.signup
-                userType = new global::BlackJack.BlackJack_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_signup;
+                userType.Activator = Activate_4_Signup;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

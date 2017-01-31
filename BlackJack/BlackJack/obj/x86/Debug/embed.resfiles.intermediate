@@ -1,5 +1,4 @@
 App.xbf
 MainPage.xbf
-Views\home.xbf
-Views\signin.xbf
-Views\signup.xbf
+Views\Signin.xbf
+Views\Signup.xbf
