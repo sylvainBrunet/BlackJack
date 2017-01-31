@@ -8,6 +8,6 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Image x:Name="image" HorizontalAlignment="Left" Height="1080" VerticalAlignment="Top" Width="1866" Source="ms-appx:///Assets/images/LasVegas.jpg" Margin="144,-10,-90,0"/>
+
     </Grid>
 </Page>
